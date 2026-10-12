@@ -31,7 +31,7 @@ export function Footer8() {
           <div className="flex flex-col items-start">
             <a href="#" className="mb-8">
             <Image
-                        src="logo/logo.svg"
+                        src="/logo/logo.svg"
                         alt="Logo image"
                         width={150}
                         height={32}

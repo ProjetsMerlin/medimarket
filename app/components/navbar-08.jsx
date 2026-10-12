@@ -44,10 +44,10 @@ export function Navbar8() {
   const useActive = useRelume();
   return (
     <section className="relative z-[999] flex min-h-16 w-full items-center bg-scheme-background px-[5%] md:min-h-18 scheme-1">
-      <div className="mx-auto flex size-full max-w-full items-center justify-between">
-        <a href="#">
+      <div className="mx-auto flex size-full container items-center justify-between">
+        <a href="/">
           <Image
-            src="logo/logo.svg"
+            src="/logo/logo.svg"
             alt="Logo image"
             width={150}
             height={32}
@@ -56,22 +56,34 @@ export function Navbar8() {
         <div className="absolute hidden h-screen overflow-auto border-b border-scheme-border bg-scheme-background px-[5%] pt-4 pb-24 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
           <div className="flex flex-col items-center lg:flex-row">
             <a
-              href="#deal"
+              href="/#promos"
               className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
             >
               Promotions
             </a>
             <a
-              href="#services"
+              href="/univers"
+              className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
+            >
+              Produits
+            </a>
+            <a
+              href="/blog"
+              className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
+            >
+              Blog
+            </a>
+            <a
+              href="/#services"
               className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
             >
               Services
             </a>
-            <a
-              href="#"
+             <a
+              href="/#contact"
               className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
             >
-              Blog
+              Contact
             </a>
             <div
               onMouseEnter={useActive.openOnDesktopDropdownMenu}
