@@ -1,5 +1,7 @@
 "use client";
 
+import clsx from 'clsx';
+
 import {
   Accordion,
   AccordionContent,
@@ -30,8 +32,9 @@ import {
 } from "@/components/ui/select";
 import React, { Fragment, useEffect, useState } from "react";
 import { Add } from "relume-icons";
+import { StarFull, StarHalf } from "relume-icons";
 
-const Star = () => {
+const Star = ({rating}) => {
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 !== 0;
   return (
@@ -47,7 +50,7 @@ const Star = () => {
             ) : isHalfStar ? (
               <StarHalf className="text-scheme-text" />
             ) : (
-              <Star className="text-scheme-text" />
+              <></>
             )}
           </div>
         );
