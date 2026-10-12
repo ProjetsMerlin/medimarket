@@ -18,11 +18,11 @@ export function Product4() {
         </div>
         <div className="grid grid-cols-2 justify-items-start gap-x-5 gap-y-12 md:gap-x-8 md:gap-y-16 lg:grid-cols-4">
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-01.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -42,11 +42,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-02.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -66,11 +66,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-03.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -90,11 +90,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-04.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -114,11 +114,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-05.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -138,11 +138,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-01.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -162,11 +162,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-03.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
@@ -186,11 +186,11 @@ export function Product4() {
             </Button>
           </div>
           <div>
-            <a href="#" className="mb-3 block aspect-[3/4] md:mb-4">
+            <a href="#" className="mb-3 block aspect-[4/4] bg-white p-4 md:mb-4">
               <img
-                src="images/produit.webp"
+                src="images/produit-02.webp"
                 alt="Relume placeholder image"
-                className="size-full rounded-image object-cover"
+                className="size-full rounded-image object-contain"
               />
             </a>
             <a href="#" className="flex flex-col text-center text-medium">
