@@ -67,7 +67,7 @@ export default function CartProvider({ cart, children }: CartProviderProps) {
           if (result.ok) {
             notify(`${quantity} × ${product.name} ajouté au panier.`, "success");
           } else {
-            notify(result.error, "error");
+            notify( "error");
           }
         } catch {
           notify("Le serveur est injoignable. Réessayez.", "error");
@@ -86,7 +86,7 @@ export default function CartProvider({ cart, children }: CartProviderProps) {
           const result = await removeFromCart(productId);
 
           if (!result.ok) {
-            notify(result.error, "error");
+            notify( "error");
           }
         } catch {
           notify("Le serveur est injoignable. Réessayez.", "error");
