@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { BackgroundCard } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/app/components/ui/button";
+import { BackgroundCard } from "@/app/components/ui/card";
+import { Input } from "@/app/components/ui/input";
 
 export function Cta54() {
   return (

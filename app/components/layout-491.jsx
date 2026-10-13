@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { VideoIframe } from "@/components/ui/video-iframe";
+import { Button } from "@/app/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/app/components/ui/dialog";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs";
+import { VideoIframe } from "@/app/components/ui/video-iframe";
 import { AnimatePresence, motion } from "motion/react";
 import React, { useState } from "react";
 import { ChevronRight, PlayCircle } from "relume-icons";

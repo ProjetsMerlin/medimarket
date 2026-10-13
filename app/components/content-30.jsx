@@ -1,13 +1,13 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/app/components/ui/badge";
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+} from "@/app/components/ui/breadcrumb";
 import React, { Fragment } from "react";
 import { FacebookLogo, Link, LinkedinLogo, XLogo } from "relume-icons";
 

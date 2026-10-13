@@ -1,7 +1,7 @@
 "use client";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { KeyboardArrowDown } from "relume-icons";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 function Accordion({ className, children, ...props }) {
     return (<AccordionPrimitive.Root data-slot="accordion" {...props}>
       {children}

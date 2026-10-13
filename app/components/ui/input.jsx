@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 function Input({ className, type, icon, iconPosition = "left", prefix, prefixPosition = "left", variant = "primary", ...props }) {
     return (<div className="relative flex w-full items-center">
       {icon && iconPosition === "left" && <div className="absolute left-3">{icon}</div>}

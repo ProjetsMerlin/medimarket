@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import { Button } from "@/components/ui/button";
-import { useMediaQuery } from "@/hooks/use-media-query";
+import { Button } from "@/app/components/ui/button";
+import { useMediaQuery } from "@/app/hooks/use-media-query";
 import { AnimatePresence, motion } from "motion/react";
 import { KeyboardArrowDown, RelumeIcon } from "relume-icons";
 
@@ -61,8 +61,9 @@ export function Navbar8() {
             >
               Promotions
             </a>
+            {/* univers */}
             <a
-              href="/univers"
+              href="/produits"
               className="relative block w-auto py-3 text-base lg:inline-block lg:px-4 lg:py-6"
             >
               Produits

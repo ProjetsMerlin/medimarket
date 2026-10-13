@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { BackgroundCard } from "@/components/ui/card";
+import { Button } from "@/app/components/ui/button";
+import { BackgroundCard } from "@/app/components/ui/card";
 import { AnimatePresence, motion } from "motion/react";
 import React, { useState } from "react";
 import { ChevronRight } from "relume-icons";
