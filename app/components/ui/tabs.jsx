@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import * as TabsPrimitive from "@radix-ui/react-tabs";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 function Tabs({ children, className, ...props }) {
     return (<TabsPrimitive.Root data-slot="tabs" className={cn(className)} {...props}>
       {children}

@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/app/components/ui/button";
+import { Input } from "@/app/components/ui/input";
 
 const useForm = () => {
   const [email, setEmail] = useState("");

@@ -1,9 +1,9 @@
 "use client";
 import * as React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowForward, ArrowBack } from "relume-icons";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 const CarouselContext = React.createContext(null);
 function useCarousel() {
     const context = React.useContext(CarouselContext);

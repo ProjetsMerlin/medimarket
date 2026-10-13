@@ -1,6 +1,6 @@
 import { Slot } from "@radix-ui/react-slot";
 import { ChevronRight, MoreHoriz } from "relume-icons";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 function Breadcrumb({ ...props }) {
     return <nav data-slot="breadcrumb" aria-label="breadcrumb" {...props}/>;
 }

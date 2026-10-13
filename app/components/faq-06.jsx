@@ -5,9 +5,9 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+} from "@/app/components/ui/accordion";
+import { Button } from "@/app/components/ui/button";
+import { Card } from "@/app/components/ui/card";
 import React from "react";
 import { Add } from "relume-icons";
 

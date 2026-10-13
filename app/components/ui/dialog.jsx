@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { Close } from "relume-icons";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 function Dialog({ ...props }) {
     return <DialogPrimitive.Root data-slot="dialog" {...props}/>;
 }

@@ -1,13 +1,13 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
+import { Card } from "@/app/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/app/components/ui/carousel";
 import React, { useEffect, useState } from "react";
 import { StarFull } from "relume-icons";
 
