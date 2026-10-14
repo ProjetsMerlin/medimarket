@@ -1,14 +1,21 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getProducts, isCategory } from "@/app/lib/products";
+import { getProducts } from "@/app/lib/products";
 
 export async function GET(request: NextRequest) {
-  const { searchParams } = request.nextUrl;
-  const category = searchParams.get("category") ?? undefined;
-  const query = searchParams.get("q") ?? undefined;
+  const { searchParams } = new URL(request.url);
 
-  if (category !== undefined && !isCategory(category)) {
-    return NextResponse.json({ error: "Catégorie invalide." }, { status: 400 });
-  }
+  const categoryParam = searchParams.get("category");
+  const query = searchParams.get("query") ?? undefined;
+
+  const categories = [
+    "maison",
+    "sport",
+    "tech",
+    "mode",
+    "jardin",
+  ] as const;
+
+  const category = categories.find((item) => item === categoryParam);
 
   const products = await getProducts({ category, query });
 
